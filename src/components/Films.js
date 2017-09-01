@@ -12,7 +12,7 @@ class List extends Component {
         let endpoint = characters.substr(characters.indexOf("/api/") + 5);
         return <li key={characters}>
             {/*Add a Link set to /charaters. Pass in the value of 'endpoint' for the text <<<<<<<<<<<<<<<<<*/}
-            <Link to='/charaters'>{endpoint}</Link>
+            <Link to='/characters'>{endpoint}</Link>
         </li>
       })
       let starships = films.starships.map((starships) => {
